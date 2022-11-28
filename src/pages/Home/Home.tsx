@@ -1,7 +1,10 @@
 import React from "react";
+import Conveyor from "../../components/Conveyor/Conveyor";
 
 function Home() {
-  return <div>Home</div>;
+  return <div>
+    <Conveyor></Conveyor>
+  </div>;
 }
 
 export default Home;
