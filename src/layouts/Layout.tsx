@@ -1,9 +1,12 @@
-import Footer from "../components/Footer/footer";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import Slider from "../components/Slider/slider";
+import Slider from "../components/Slider/Slider";
 
+interface LayoutProps {
+    children: React.ReactNode
+}
 
-function Layout({children}) {
+const Layout = ({children}:LayoutProps) =>  {
     return ( 
         <div>
             <Header/>
