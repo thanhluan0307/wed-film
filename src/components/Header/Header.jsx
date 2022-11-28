@@ -1,6 +1,6 @@
 function Header() {
     return ( 
-        <div>hello header</div>
+        <div className="text-lg font-medium">hello header</div>
      );
 }
 
