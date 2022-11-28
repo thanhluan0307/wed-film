@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { publicRouters } from "./routes/index";
 import Layout from "./layouts/Layout";
-import "./App.css";
 
 function App() {
   return (
